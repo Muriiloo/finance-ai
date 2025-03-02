@@ -14,8 +14,8 @@ interface SummaryCardsProps {
 const SummaryCards = async ({ month }: SummaryCardsProps) => {
   const where = {
     date: {
-      gte: new Date(`2024-${month}-01`),
-      lt: new Date(`2024-${month}-31`),
+      gte: new Date(`2025-${month}-01`),
+      lt: new Date(`2025-${month}-31`),
     },
   };
 
